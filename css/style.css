@@ -1,0 +1,21 @@
+body {
+  color: #f00;
+  margin: 0;
+  padding: 0;
+}
+
+svg{
+  xposition: relative;
+  float: left;
+  xz-index: -1;
+  xtop: 0px;
+}
+
+div.pat-bgr2{
+  background-color: hsl(0, 100%, 93%, 0.5);
+  z-index: 1000;
+  height: 600px;
+  xbackground-blend-mode: multiply;
+  xmix-blend-mode: multiply;
+  xfilter: contrast(120%);
+}
